@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dgclock.css">
   </head>
   <body>
     <div class="wrapper">
@@ -12,6 +12,9 @@
 </div>
 
     </div>
+    <footer>
+  <b>Copyright &copy; 2021 Web Design by Minarva</b>
+</footer>
 <script>
       setInterval(()=>{
         const time = document.querySelector(".display #time");
@@ -34,10 +37,10 @@
           hours = "0" + hours;
         }
         time.textContent = hours + ":" + minutes + ":" + seconds + " "+ day_night;
-      })
+      });
     </script>
-<footer>
-  <b>Copyright &copy; 2021 Web Design by Minarva</b>
-</footer>
+
   </body>
 </html>
+
+
